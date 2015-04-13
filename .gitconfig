@@ -1,0 +1,32 @@
+[user]
+	name = Sagiv
+	email = sagiv4@gmail.com
+[core]
+	editor = s -n -w
+[alias]
+  br = branch
+  co = checkout
+  cm = commit
+  fu = fetch upstream
+  df = diff --color
+  dfno = diff --color --name-only
+  dfc = diff --color --cached
+  lg = log --color
+  ll = log --color --pretty=oneline
+  llb = log --color --decorate --pretty=oneline
+  lol = log --graph --color --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --color --decorate --pretty=oneline --abbrev-commit --all
+  ls = ls-files
+  sh = show --color
+  ss = stash show -p --color
+  sv = stash save -- -m
+  s = status
+  d = diff
+  b = branch
+  c = checkout
+  pu = pull origin
+  up = "!git remote update -p; git merge --ff-only @{u}"
+[color]
+  ui = true
+[merge]
+  ff = no
